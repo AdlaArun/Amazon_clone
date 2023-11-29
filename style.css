@@ -178,7 +178,7 @@ span {
     height: 600px;
     /* background-image: url(hero-picture.jpg); */
     background-size: cover;
-    background-image: linear-gradient(to bottom, rgba(0, 113, 133, 0), rgba(0, 113, 133, 0), rgba(226, 231, 230, 0.99)), url(hero-picture.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 113, 133, 0), rgba(0, 113, 133, 0), rgba(226, 231, 230, 0.99)), url('pictures/hero-picture.jpg');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -270,7 +270,7 @@ span {
 /* ------------------- box 1 --------------------------------- */
 
 .box1-img {
-    background-image: url("img1.jpg");
+    background-image: url("pictures/img1.jpg");
     background-position-x: center;
 }
 
@@ -288,44 +288,44 @@ span {
 
 
 .box2-img1 {
-    background-image: url('fashion_img1.jpg');
+    background-image: url('pictures/fashion_img1.jpg');
     background-position-x: center;
 }
 
 .box2-img2 {
-    background-image: url('fashion_img2.jpg');
+    background-image: url('pictures/fashion_img2.jpg');
     background-position-x: center;
 }
 
 .box2-img3 {
-    background-image: url('fashion_img3.jpg');
+    background-image: url('pictures/fashion_img3.jpg');
     background-position-x: center;
 }
 
 .box2-img4 {
-    background-image: url('fashion_img4.jpg');
+    background-image: url('pictures/fashion_img4.jpg');
     background-position-x: center;
 }
 
 /* ------------------------------box 3 --------------------------------- */
 
 .box3-img1 {
-    background-image: url('fash_trend_img1.jpg');
+    background-image: url('pictures/fash_trend_img1.jpg');
     background-position-x: center;
 }
 
 .box3-img2 {
-    background-image: url('fash_trend_img2.jpg');
+    background-image: url('pictures/fash_trend_img2.jpg');
     background-position-x: center;
 }
 
 .box3-img3 {
-    background-image: url('fash_trend_img3.jpg');
+    background-image: url('pictures/fash_trend_img3.jpg');
     background-position-x: center;
 }
 
 .box3-img4 {
-    background-image: url('fash_trend_img4.jpg');
+    background-image: url('pictures/fash_trend_img4.jpg');
     background-position-x: center;
 }
 
@@ -346,7 +346,7 @@ span {
 .box4-img {
     width: 310px;
     height: 230px;
-    background-image: url('top_deal.jpg');
+    background-image: url('pictures/top_deal.jpg');
     background-size: contain;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -380,3 +380,39 @@ span {
 }
 
 /* ----------------------------------------------------------------------- */
+
+.lower-section {
+    height: 420px;
+    width: 99.8%;
+    position: absolute;
+    top: 880px;
+    border: 2px solid black;
+}
+
+.b1-img1 {
+    background-image: url();
+    background-position-x: center;
+}
+
+.b1-img2 {
+    background-image: url();
+    background-position-x: center;
+}
+
+.b1-img3 {
+    background-image: url();
+    background-position-x: center;
+}
+
+.b1-img4 {
+    background-image: url();
+    background-position-x: center;
+}
+
+.b1 {
+    margin-left: 9px;
+}
+
+.b4 {
+    margin-right: 8px;
+}
