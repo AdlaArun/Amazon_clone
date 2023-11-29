@@ -379,33 +379,71 @@ span {
     display: flex;
 }
 
-/* ----------------------------------------------------------------------- */
+/* ---------------------------- lower-section ------------------------------ */
 
 .lower-section {
     height: 420px;
     width: 99.8%;
     position: absolute;
     top: 880px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
+/* -------------------------------- b1 ------------------------------------- */
+
 .b1-img1 {
-    background-image: url();
+    background-image: url('pictures/gaming1.jpg');
     background-position-x: center;
 }
 
 .b1-img2 {
-    background-image: url();
+    background-image: url('pictures/gaming2.jpg');
     background-position-x: center;
 }
 
 .b1-img3 {
-    background-image: url();
+    background-image: url('pictures/gaming3.jpg');
     background-position-x: center;
 }
 
 .b1-img4 {
-    background-image: url();
+    background-image: url('pictures/gaming4.jpg');
+    background-position-x: center;
+}
+
+/* ------------------------- b2 ------------------------------------------ */
+
+.b2-img {
+    background-image: url('pictures/pc.jpg');
+    background-position-x: center;
+}
+
+/* ----------------------------- b3 ---------------------------------------*/
+
+.b3-img {
+    background-image: url('pictures/toys.jpg');
+    background-position-x: center;
+}
+
+/* ----------------------------- b4 ------------------------------------- */
+
+.b4-img1 {
+    background-image: url('pictures/space1.jpg');
+    background-position-x: center;
+}
+
+.b4-img2 {
+    background-image: url('pictures/space2.jpg');
+    background-position-x: center;
+}
+
+.b4-img3 {
+    background-image: url('pictures/space3.jpg');
+    background-position-x: center;
+}
+
+.b4-img4 {
+    background-image: url('pictures/space4.jpg');
     background-position-x: center;
 }
 
