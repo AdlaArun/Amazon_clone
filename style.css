@@ -204,7 +204,7 @@ span {
 
 .background-color-section {
     width: 100%;
-    height: 800px;
+    height: 650px;
     background-color: #e2e7e6;
 }
 
@@ -456,4 +456,44 @@ span {
 }
 
 /* ----------------------- footer ----------------------------- */
+
+footer {
+    background-color: #0F1111;
+    color: #FFFFFF;
+}
+
+.btp {
+    height: 49px;
+    background-color: #232f3e;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.info_container {
+    height: 318.359px;
+    margin-left: 175.5px;
+    margin-right: 175.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-1 {
+    width: 119.109px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: space-between;
+}
+
+.column-1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 14px;
+}
 
