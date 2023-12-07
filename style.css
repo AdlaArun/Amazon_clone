@@ -454,3 +454,11 @@ span {
 .b4 {
     margin-right: 8px;
 }
+
+/* ----------------------- footer ----------------------------- */
+
+fter {
+    height: 2000px;
+    width: 100%;
+    background-color: black;
+}
