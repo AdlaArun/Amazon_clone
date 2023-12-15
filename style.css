@@ -462,6 +462,8 @@ footer {
     color: #FFFFFF;
 }
 
+/* ------------------------ part -1 -------------------------- */
+
 .btp {
     height: 49px;
     background-color: #232f3e;
@@ -484,16 +486,75 @@ footer {
     justify-content: space-between;
 }
 
-.column-1 {
-    width: 119.109px;
-    /* display: flex; */
-    justify-content: center;
-    align-items: space-between;
+.column p {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #FFFFFF;
 }
 
-.column-1 a{
+.column a{
+    display: block;
     text-decoration: none;
     color: #FFFFFF;
     font-size: 14px;
+    margin-bottom: 10px;
+    color: #DDDDDD;
 }
 
+/* -------------------------- part 2 ------------------------- */
+
+.divider {
+    margin-top: 40px;
+    height: 1px;
+    background-color: #635e5e;
+}
+
+.amazon-logo-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88px;
+}
+
+.container {
+    height: 68px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bxd {
+    position: relative;
+    top: 8px;
+    display: flex;
+    width: 427.844px;
+}
+
+.bx {
+    height: 20px;
+    border: 1px solid #DDDDDD;
+    padding: 6px 18px 6px 8px;
+    border-radius: 5%;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 4px;
+}
+
+.bx-1 {
+    width: 88.828px;
+}
+
+.bx-2 {
+    width: 124.688px;
+}
+
+.bx-3 {
+    width: 111.641px;
+}
+
+.bx-3 img {
+    height: 18px; 
+}
