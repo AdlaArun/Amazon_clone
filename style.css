@@ -557,4 +557,6 @@ footer {
 
 .bx-3 img {
     height: 18px; 
+    position: relative;
+    top: -4px;
 }
