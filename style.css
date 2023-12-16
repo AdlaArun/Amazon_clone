@@ -458,15 +458,15 @@ span {
 /* ----------------------- footer ----------------------------- */
 
 footer {
-    background-color: #0F1111;
     color: #FFFFFF;
+    background-color: #232f3e;
 }
 
 /* ------------------------ part -1 -------------------------- */
 
 .btp {
     height: 49px;
-    background-color: #232f3e;
+    background-color: #38445c;
     font-size: 13px;
     display: flex;
     justify-content: center;
@@ -570,6 +570,7 @@ footer {
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    background-color: #181c24;
 }
 
 .links-2-container {
@@ -617,6 +618,7 @@ footer {
     text-align: center;
     font-size: 12px;
     color: #DDDDDD;
+    background-color: #181c24;
 }
 
 .footer-line a {
