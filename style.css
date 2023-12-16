@@ -560,3 +560,71 @@ footer {
     position: relative;
     top: -4px;
 }
+
+/* -------------------------- part 3 ---------------------------- */
+/* --------------------------- Note:- have to apply grid for the below part------------------------- */
+
+.links-2 {
+    height: 318px;
+    padding: 30px 0px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.links-2-container {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+
+.wrapper {
+    height: 81px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-2-container-4 {
+    width: 735.17px;
+}
+
+.l {
+    font-size: 12px;
+    height: 81px;
+}
+
+.l p {
+    color: #DDDDDD;
+}
+
+.l a {
+    color: #999999;
+}
+
+.l :hover{
+    color: red;
+    text-decoration: underline;
+}
+
+/* ------------------------part 4-------------------------- */
+
+.footer-line {
+    height: 37.2px;
+    padding: 10px 0px 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #DDDDDD;
+}
+
+.footer-line a {
+    color: #DDDDDD;
+}
+
+.footer-line img {
+    height: 14px;
+    position: relative;
+    top: 3px;
+}
