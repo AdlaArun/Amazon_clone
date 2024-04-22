@@ -9,7 +9,6 @@
     height: 60px;
     color: white;
     background-color: #08443c;
-    /* bar below nav-bar color = #205c54 */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -32,8 +31,6 @@ img {
     justify-content: center;
     align-items: center;
     position: relative;
-    /* top: 5px; */
-    /* left: 6px; */
     border: 1.5px solid transparent;
     border-radius: 5%;
 }
@@ -46,13 +43,10 @@ img {
 
 #add-first {
     color: #CCCCCC;
-    /* font-size: 0.85rem; */
     font-size: 12px;
-    /* margin-left: 12px; */
 }
 
 #add-sec {
-    /* font-size: 1rem; */
     font-size: 14px;
     font-weight: 700;
 }
@@ -62,7 +56,6 @@ img {
 .nav-search {
     display: flex;
     justify-content: space-evenly;
-    /* background-color: black; */
     width: 895px;
     height: 40px;
     border-radius: 4px;
@@ -130,7 +123,6 @@ span {
 }
 
 .menu-bar-container {
-    /* height: 39px;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,7 +168,6 @@ span {
 
 .hero-section {
     height: 600px;
-    /* background-image: url(hero-picture.jpg); */
     background-size: cover;
     background-image: linear-gradient(to bottom, rgba(0, 113, 133, 0), rgba(0, 113, 133, 0), rgba(226, 231, 230, 0.99)), url('pictures/hero-picture.jpg');
     display: flex;
@@ -386,7 +377,6 @@ span {
     width: 99.8%;
     position: absolute;
     top: 880px;
-    /* border: 2px solid black; */
 }
 
 /* -------------------------------- b1 ------------------------------------- */
@@ -562,7 +552,6 @@ footer {
 }
 
 /* -------------------------- part 3 ---------------------------- */
-/* --------------------------- Note:- have to apply grid for the below part------------------------- */
 
 .links-2 {
     height: 318px;
@@ -579,6 +568,11 @@ footer {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: space-evenly;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
 }
 
 .wrapper {
